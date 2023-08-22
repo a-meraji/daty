@@ -5,6 +5,11 @@
 /.pnp
 .pnp.js
 
+#pocketbase
+/pb_data
+/pb_migrations
+pocketbase
+
 # testing
 /coverage
 
