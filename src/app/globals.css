@@ -2,3 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: iran-sans;
+  src: url("/fonts/IRANSansWebFaNum.eot") format("eot");
+  src: url("/fonts/IRANSansWebFaNum.woff") format("woff"),
+    url("/fonts/IRANSansWebFaNum.woff2") format("woff2"),
+    url("/fonts/IRANSansWebFaNum.ttf") format("truetype");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: iran-sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  direction: rtl;
+  }
+
+.light {
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #E3E5E8;
+  --color-bg-tritary: #E6E6E6;
+  --color-bg-cont-primary:#212121;
+
+  --color-txt-primary:#333333;
+  --color-txt-secondary:#5d5d5d;
+  --color-txt-cont-primary:#ffffff;
+}
+
+.light *> .error{
+background-color:#ff0000;
+color:#ffffff;
+}
+
+
+.light_blue{
+--color-bg-accent1:#52d0ca;
+--color-bg-accent1sh1:#5ee8dd;
+
+--color-txt-accent1:#52d0ca;
+}
